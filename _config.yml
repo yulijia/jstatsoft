@@ -1,10 +1,10 @@
 ### Site info:
-title: 《统计软件杂志》中文翻译站
-tagline: Journal of Statistical Software
+title: Journal of Statistical Software 中文翻译站
+tagline: 统计软件是统计模型到实际应用的桥梁
 author: Lijia Yu
 email: yu@lijiayu.net
 description: "a Chinese mirror site for Journal of Statistical Software." 
-keywords: "jstatsoft, Chinese, Journal of Statistical Software, R, 《统计软件杂志》中文翻译站"
+keywords: "jstatsoft, Chinese, Journal of Statistical Software, R, 统计软件, 中文翻译站"
 baseurl: "/jstatsoft"
 url: "http://yulijia.net/jstatsoft"
 locale: zh_CN
