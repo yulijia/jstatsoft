@@ -1,0 +1,54 @@
+### Site info:
+title: 《统计软件杂志》中文翻译站
+tagline: Journal of Statistical Software
+author: Lijia Yu
+email: yu@lijiayu.net
+description: "a Chinese mirror site for Journal of Statistical Software." 
+keywords: "jstatsoft, Chinese, Journal of Statistical Software, R, 《统计软件杂志》中文翻译站"
+baseurl: "/jstatsoft"
+url: "http://yulijia.net/jstatsoft"
+locale: zh_CN
+
+### Site setting:
+ShowContactInfo: "False" 
+default_column: "one" 
+default_locale: "cn" 
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 1
+permalink: /:categories/:title.html
+
+kramdown:
+  toc_levels: "1,2,3,4" 
+
+exclude: []
