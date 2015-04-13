@@ -1,5 +1,4 @@
 # Journal of Statistical Software 中文翻译站
-# jstatsoft zh-cn
 
 a Chinese mirror site for juournal of statstical software
 
