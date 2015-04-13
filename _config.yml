@@ -8,6 +8,8 @@ keywords: "jstatsoft, Chinese, Journal of Statistical Software, R, 统计软件,
 baseurl: "/jstatsoft"
 url: "http://yulijia.net/jstatsoft"
 locale: zh_CN
+favicon:     "/images/favicon.ico"
+
 
 ### Site setting:
 ShowContactInfo: "False" 
