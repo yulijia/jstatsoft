@@ -1,4 +1,34 @@
+{% for category in site.categories %}
+{% assign catg_name = category.first %}
+{% if catg_name == page.categories.first | downcase %}
+{% assign catg_posts = category.last %}
+{% endif %}
+{% endfor %}
+
+
 <section class="pager">
+  <ul>
+    {% for post in catg_posts %}
+    {% if post.title == page.title %}
+    {% unless forloop.last %}
+    {% assign next = catg_posts[forloop.index] %}
+    <li class="previous">
+    <a href="{{ site.baseurl }}{{ next.url }}">&larr;{{ next.title }}</a>
+    </li>
+    {% endunless %}
+    {% unless forloop.first %}
+    <li class="next">
+    <a href="{{ site.baseurl }}{{ prev.url }}">{{ prev.title }}&rarr;</a>
+    </li>
+    {% endunless %}
+    {% endif %}
+    {% assign prev = post %}
+    {% endfor %}
+  </ul>
+</section> 
+
+
+<!--section class="pager">
   <ul>
     {% if page.previous %}
     <li class="previous"><a href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; {{ site.locales[site.default_locale].Previous }}</a></li>
@@ -11,4 +41,4 @@
     <li class="disabled"><a>{{ site.locales[site.default_locale].Next }} &rarr;</a>
     {% endif %}
   </ul>
-</section>
+</section--> 
