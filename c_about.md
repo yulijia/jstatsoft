@@ -13,7 +13,7 @@ permalink: /about/
 
 非常欢迎有兴趣的同学加入本站翻译的行列，共同学习，共同进步。
 
-另外所有问题欢迎到[github开issue讨论](https://github.com/yulijia/jstatsoft/issues "issues")，站内不设置留言区域。
+有问题欢迎到[github开issue讨论](https://github.com/yulijia/jstatsoft/issues "issues")，站内不设置留言区域。
 
 If you have any problem or question, [please open an issue on github](https://github.com/yulijia/jstatsoft/issues "issues").
 
