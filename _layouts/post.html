@@ -18,8 +18,14 @@ layout: default
     {% endfor %}
     {% endif %}
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%b %-d, %Y" }}
+      {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%b %-d, %Y" }}
     </time>
+    {{ site.locales[site.default_locale].Author }}
+    {% for id in page.author %}{% assign author = site.authors[id] %}
+    {% if author %}
+    <a href="{{ author.github}}">{{ author.name }}</a>
+    {% endif %}
+    {% endfor %}
     </p>
   </header>
 
